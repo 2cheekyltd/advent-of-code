@@ -4,7 +4,8 @@
 $input = trim(file_get_contents('./input.txt'));
 
 
-function reduce_polymer($str) {
+function reduce_polymer($str)
+{
     $index = strlen($str);
     while ($index > 0) {
         $index--;
